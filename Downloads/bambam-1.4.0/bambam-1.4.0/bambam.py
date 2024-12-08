@@ -1222,7 +1222,8 @@ class Bambam:
         texts.append("")
         texts.append(_(
             "The game tries to grab the keyboard and mouse pointer focus, "
-            "to keep your child from causing damage to your files."))
+            "to keep your child from causing damage to your files. "
+            "Keys 1, 2, 3 trigger specific minigames: matching, read aloud, and tracing"))
         if dedicated_session:
             texts.append(_(
                 "The game is now running in a dedicated login session, which provides some additional safety. "
